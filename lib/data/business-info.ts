@@ -2,7 +2,7 @@ export const businessInfo = {
   // Core business details
   name: "Santa's Workshop Wellness",
   tagline: "Spreading Holiday Cheer and Wellness All Year",
-  logo: "/logo.png",
+  logo: "/logo.svg",
 
   // Contact information
   phone: "(555) NORTH-POLE",
