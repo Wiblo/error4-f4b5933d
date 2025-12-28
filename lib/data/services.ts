@@ -1,4 +1,4 @@
-import { Activity, Zap } from 'lucide-react'
+import { Gift, Snowflake } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
 export interface Service {
@@ -27,62 +27,62 @@ export const services: Service[] = [
   {
     id: 'initial-consultation',
     slug: 'initial-consultation',
-    name: 'Initial Consultation',
+    name: 'Christmas Wellness Check-Up',
     description:
-      'Comprehensive first visit including thorough history taking, physical examination, and personalised treatment plan development to address your specific health concerns.',
+      'Get on Santa\'s nice list with a comprehensive wellness assessment! Our festive first visit includes a joyful health evaluation and personalized holiday healing plan to keep you merry and bright all season long.',
     duration: '60 min',
-    price: 'R850',
-    image: '/arm-mobility-assessment.jpeg',
-    imageAlt: 'Professional arm mobility assessment during consultation',
-    icon: Activity,
+    price: '$125',
+    image: 'https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800&q=80',
+    imageAlt: 'Festive Christmas wellness consultation with holiday decorations',
+    icon: Gift,
     benefits: [
-      'Complete health assessment',
-      'Diagnosis and explanation',
-      'Personalised treatment plan',
-      'First adjustment if suitable',
+      'Complete holiday health assessment',
+      'Candy cane posture check',
+      'Personalized wellness wish list',
+      'First treatment if you\'ve been nice',
     ],
     featured: true,
     shortDescription:
-      'Your journey to optimal health begins with a comprehensive assessment',
+      'Start your journey to a merry and healthy holiday season',
     fullDescription:
-      'During your initial consultation, Dr. Jordaan conducts a thorough evaluation of your health history, current concerns, and wellness goals. This includes a detailed physical examination, postural analysis, and functional movement assessment.\n\nUsing evidence-based diagnostic techniques, we identify the root cause of your discomfort and develop a personalized treatment plan tailored to your unique needs. If appropriate, your first chiropractic adjustment may be performed during this visit.',
+      'During your Christmas Wellness Check-Up, our team of jolly wellness elves conducts a thorough evaluation of your health history, current concerns, and holiday wellness goals. This includes a festive physical examination, candy cane posture analysis, and jingle bell movement assessment.\n\nUsing North Pole-approved diagnostic techniques, we identify what\'s keeping you from being your merriest self and develop a personalized treatment plan sprinkled with holiday magic. If you\'ve been nice, your first therapeutic session may be included during this visit!',
     idealFor: [
-      'New patients',
-      'Chronic pain',
-      'Sports injuries',
-      'Postural issues',
-      'Preventative care',
-      'Wellness optimization',
+      'New patients seeking holiday wellness',
+      'Stressed shoppers needing relief',
+      'Cookie baking posture issues',
+      'Tree decorating strains',
+      'Preventative holiday care',
+      'Staying on the nice list',
     ],
   },
   {
     id: 'follow-up',
     slug: 'follow-up-consultation',
-    name: 'Follow-Up Consultation',
+    name: 'Ho-Ho-Holistic Follow-Up',
     description:
-      'Continued care appointments to monitor progress, adjust treatment plans, and provide therapeutic interventions tailored to your healing journey.',
+      'Keep the holiday spirit flowing with continued wellness sessions! Monitor your progress, adjust your treatment sleigh, and receive therapeutic interventions to keep you jingling all the way.',
     duration: '30 min',
-    price: 'R650',
-    image: '/spinal-adjustment-treatment.jpeg',
-    imageAlt: 'Professional spinal adjustment treatment session',
-    icon: Zap,
+    price: '$85',
+    image: 'https://images.unsplash.com/photo-1482517967863-00e15c9b44be?w=800&q=80',
+    imageAlt: 'Cozy Christmas wellness session with festive ambiance',
+    icon: Snowflake,
     benefits: [
-      'Progress evaluation',
-      'Treatment adjustments',
-      'Therapeutic interventions',
-      'Home care advice',
+      'Progress evaluation by Santa\'s helpers',
+      'Treatment plan adjustments',
+      'Festive therapeutic interventions',
+      'Home care tips for the holidays',
     ],
     featured: true,
     shortDescription:
-      'Ongoing care to maintain progress and achieve your health goals',
+      'Ongoing care to keep you merry throughout the holiday season',
     fullDescription:
-      'Follow-up consultations are essential for monitoring your progress and ensuring optimal results. Each session includes a reassessment of your condition, targeted chiropractic adjustments, and complementary therapies as needed.\n\nDr. Jordaan adjusts your treatment plan based on your response to care, ensuring you continue progressing toward your health goals. These appointments also include guidance on exercises, lifestyle modifications, and self-care strategies to support your healing between visits.',
+      'Ho-Ho-Holistic Follow-Up sessions are essential for maintaining your holiday wellness and ensuring you stay joyful all season long. Each session includes a cheerful reassessment of your condition, targeted therapeutic adjustments, and complementary holiday therapies as needed.\n\nOur wellness elves adjust your treatment plan based on your response to care, ensuring you continue progressing toward your merriest self. These appointments also include guidance on festive exercises, holiday lifestyle tips, and self-care strategies to keep your spirits bright between visits.',
     idealFor: [
-      'Ongoing treatment',
-      'Maintenance care',
-      'Recovery monitoring',
-      'Pain management',
-      'Performance optimization',
+      'Ongoing holiday treatment',
+      'Maintaining seasonal wellness',
+      'Recovery from gift wrapping',
+      'Managing holiday stress',
+      'Performance optimization for caroling',
     ],
   },
 ]

@@ -17,11 +17,11 @@ export interface AboutFull {
  * Brief introduction with link to full about page
  */
 export const aboutPreview: AboutPreview = {
-  title: 'About Our Practice',
+  title: 'About Santa\'s Workshop',
   description:
-    "Dr. Kamilah Jordaan is a dedicated chiropractor committed to helping people achieve a pain-free life through non-invasive healthcare. With a Master's degree in Chiropractic from the University of Johannesburg earned with distinction, she provides holistic, patient-centered care to individuals of all ages.",
-  image: '/dr-kamilah-professional-portrait.jpeg',
-  imageAlt: 'Dr. Kamilah Jordaan professional portrait',
+    "Head Elf Claus is a dedicated wellness practitioner committed to helping everyone achieve a merry life through North Pole-approved healthcare. With centuries of experience spreading holiday cheer and a degree from the University of Christmas Magic earned with distinction, our team provides holistic, festive care to elves, reindeer, and humans of all ages.",
+  image: 'https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800&q=80',
+  imageAlt: 'Festive Christmas wellness environment with holiday decorations',
 }
 
 /**
@@ -29,12 +29,12 @@ export const aboutPreview: AboutPreview = {
  * Comprehensive information about the practice
  */
 export const aboutFull: AboutFull = {
-  title: 'About Dr. Kamilah Jordaan',
+  title: 'About Head Elf Claus & The Workshop Team',
   paragraphs: [
-    "Dr. Kamilah Jordaan is a dedicated chiropractor committed to helping people achieve a pain-free life through non-invasive healthcare. With a Master's degree in Chiropractic from the University of Johannesburg earned with distinction, she provides holistic, patient-centered care to individuals of all ages.",
-    'Specializing in sports and family chiropractic care, Dr. Jordaan combines advanced techniques with a compassionate approach to address a wide range of conditions, from sports injuries to chronic pain management.',
-    'At Sticks and Stones Wellness Hub, every patient receives personalized attention and a customized treatment plan designed to support their unique healing journey and long-term wellness goals.',
+    "Head Elf Claus is a dedicated wellness practitioner committed to helping everyone achieve a merry life through North Pole-approved healthcare. With centuries of experience spreading holiday cheer and a degree from the University of Christmas Magic earned with distinction, our workshop provides holistic, festive care to elves, reindeer, and humans of all ages.",
+    'Specializing in holiday wellness and family care, Head Elf Claus combines traditional North Pole techniques with a compassionate approach to address a wide range of conditions, from gift-wrapping fatigue to chronic Grinch syndrome and even reindeer flight injuries.',
+    'At Santa\'s Workshop Wellness, every patient receives personalized attention and a customized treatment plan designed to support their unique healing journey and keep them on the nice list year-round. We believe in spreading wellness joy throughout all seasons, not just Christmas!',
   ],
-  image: '/dr-kamilah-professional-portrait.jpeg',
-  imageAlt: 'Dr. Kamilah Jordaan professional portrait',
+  image: 'https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800&q=80',
+  imageAlt: 'Festive Christmas wellness center interior with warm lighting',
 }
