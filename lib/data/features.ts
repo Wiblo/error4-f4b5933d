@@ -14,29 +14,29 @@ export interface FeatureBlock {
 export const featureBlocks: FeatureBlock[] = [
   {
     id: 'feature-1',
-    title: 'Transformative Wellness Solutions',
+    title: 'Magical Holiday Healing',
     description:
-      'Our innovative approach combines evidence-based wellness techniques with personalized treatment plans designed to help you achieve your 2025 health goals. We focus on long-term results rather than temporary fixes, helping you achieve lasting wellness that transforms your life.',
-    image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80',
-    imageAlt: 'Modern wellness center with elegant gold and midnight blue ambiance',
+      'Our enchanted approach combines time-honored wellness traditions with personalized holiday treatment plans designed to keep you jolly and bright. We focus on long-term merriment rather than temporary cheer, helping you achieve lasting wellness that lasts beyond the twelve days of Christmas.',
+    image: 'https://images.unsplash.com/photo-1512389098783-66b81f86e199?w=800&q=80',
+    imageAlt: 'Festive Christmas wellness with red ornaments and decorations',
     imagePosition: 'right',
   },
   {
     id: 'feature-2',
-    title: 'State-of-the-Art Technology',
+    title: 'North Pole Approved Methods',
     description:
-      'We utilize the most advanced chiropractic techniques and state-of-the-art diagnostic equipment to provide effective, gentle care. Our methods are continuously updated to incorporate the latest research in sports medicine and rehabilitative wellness.',
-    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80',
-    imageAlt: 'Professional modern treatment room with advanced wellness equipment',
+      'We utilize the most festive wellness techniques straight from Santa\'s workshop and North Pole-certified equipment to provide effective, gentle care. Our methods are continuously blessed by holiday spirits to incorporate the most joyful research in seasonal wellness.',
+    image: 'https://images.unsplash.com/photo-1543589077-47d81606c1bf?w=800&q=80',
+    imageAlt: 'Cozy Christmas workspace with hot cocoa and festive decor',
     imagePosition: 'left',
   },
   {
     id: 'feature-3',
-    title: 'Your Personalized Resolution Plan',
+    title: 'Your Personal Wellness Wish List',
     description:
-      'Every patient receives a customized treatment plan tailored to their unique health goals, lifestyle, and wellness objectives. We take the time to understand your specific needs and create a comprehensive roadmap to help you achieve optimal health and lasting vitality.',
-    image: 'https://images.unsplash.com/photo-1467810563316-b5476525c0f9?w=800&q=80',
-    imageAlt: 'Elegant celebration planning with gold accents and champagne',
+      'Every patient receives a customized treatment plan tailored to their unique holiday needs, lifestyle, and wellness wishes. We take the time to understand what keeps you off the naughty list and create a merry roadmap to help you achieve optimal health and holiday happiness.',
+    image: 'https://images.unsplash.com/photo-1576919228236-a097c32a5cd4?w=800&q=80',
+    imageAlt: 'Festive Christmas gift with red ribbon and ornaments',
     imagePosition: 'right',
   },
 ]

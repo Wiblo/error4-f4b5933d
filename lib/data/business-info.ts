@@ -1,53 +1,53 @@
 export const businessInfo = {
   // Core business details
-  name: "Resolution Wellness Center",
-  tagline: "New Year, New You - Start 2025 Pain-Free",
-  logo: "/uploads/33ef87d8-f7ea-460e-a37f-eefd6c29d7da.png",
+  name: "Santa's Workshop Wellness",
+  tagline: "Spreading Holiday Cheer and Wellness All Year",
+  logo: "/logo.svg",
 
   // Contact information
-  phone: "(555) 2025-NEW",
-  phoneSecondary: "(555) WELLNESS", // Optional second phone number
-  email: "info@resolutionwellness.com",
+  phone: "(555) NORTH-POLE",
+  phoneSecondary: "(555) HO-HO-HO", // Optional second phone number
+  email: "santa@northpolewellness.com",
 
   // Location
   address: {
-    street: "2025 Celebration Boulevard",
-    area: "Renewal District", // Optional (e.g., "Building Name" or "Suite 100")
-    city: "New Hope",
-    state: "NY",
-    zip: "10001",
+    street: "1 Candy Cane Lane",
+    area: "Workshop District", // Optional (e.g., "Building Name" or "Suite 100")
+    city: "North Pole",
+    state: "AK",
+    zip: "99705",
     country: "US",
   },
 
   // Optional: Coordinates for map and LocalBusiness schema
   geo: {
-    latitude: 40.7589,
-    longitude: -73.9851,
+    latitude: 64.7511,
+    longitude: -147.3494,
   },
 
   // Business hours
   hours: {
-    monday: "7:00am - 9:00pm",
-    tuesday: "7:00am - 9:00pm",
-    wednesday: "7:00am - 9:00pm",
-    thursday: "7:00am - 9:00pm",
-    friday: "7:00am - 10:00pm",
-    saturday: "8:00am - 8:00pm",
-    sunday: "9:00am - 6:00pm",
+    monday: "8:00am - 8:00pm",
+    tuesday: "8:00am - 8:00pm",
+    wednesday: "8:00am - 8:00pm",
+    thursday: "8:00am - 8:00pm",
+    friday: "8:00am - 9:00pm",
+    saturday: "9:00am - 6:00pm",
+    sunday: "Christmas Prep Day",
   },
 
   // Social media profiles
   social: {
-    facebook: "https://facebook.com/resolutionwellness",
-    instagram: "https://instagram.com/resolutionwellness2025",
+    facebook: "https://facebook.com/santasworkshopwellness",
+    instagram: "https://instagram.com/northpolewellness",
     whatsapp: "https://wa.me/1234567890", // WhatsApp link with number
     // twitter: "https://twitter.com/yourpage",
     // linkedin: "https://linkedin.com/company/yourpage",
   },
 
   // Site metadata
-  url: "https://resolutionwellness.com",
-  description: "Begin your 2025 wellness journey with expert chiropractic care. Turn your New Year's resolutions into reality with personalized treatment plans and holistic healing.",
+  url: "https://santasworkshopwellness.com",
+  description: "Bringing the magic of Christmas wellness to help everyone stay on the nice list with holistic care and holiday spirit.",
   priceRange: "$$", // $, $$, $$$, or $$$$
 
   // Schema.org types for JSON-LD structured data
@@ -60,13 +60,13 @@ export const businessInfo = {
   schemaTypes: ['LocalBusiness', 'MedicalBusiness', 'HealthAndBeautyBusiness'] as const,
 
   // Booking/appointment URL
-  bookingUrl: "https://resolutionwellness.com/book",
+  bookingUrl: "https://santasworkshopwellness.com/book",
 
   // Google Maps configuration
   maps: {
     apiKey: "AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8",
     // Location name for Google Maps searches
-    locationName: "Resolution Wellness Center",
+    locationName: "Santa's Workshop Wellness Center",
   },
 }
 

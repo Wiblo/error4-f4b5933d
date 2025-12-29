@@ -11,11 +11,11 @@ export default function Home() {
   return (
     <>
       <HeroWithImage
-        subtitle="Begin 2025 with Renewed Wellness & Vitality"
-        title="Your Resolution to Pain-Free Living Starts Now"
-        backgroundImage="https://images.unsplash.com/photo-1467810563316-b5476525c0f9?w=1600&q=80"
-        backgroundImageAlt="Celebratory New Year's fireworks and champagne in elegant setting"
-        ctaText="Start Your Wellness Journey"
+        subtitle="Expert Chiropractic Care for Your Well-Being"
+        title="Your Journey to Pain-Free Living Starts Here"
+        backgroundImage="https://images.unsplash.com/photo-1544991875-5dc1b05f607d?w=1600&q=80"
+        backgroundImageAlt="Professional chiropractor treating patient in modern clinic"
+        ctaText="Schedule Your Appointment"
         ctaUrl={businessInfo.bookingUrl}
       />
       <FeaturedServices />
