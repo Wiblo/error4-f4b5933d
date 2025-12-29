@@ -11,11 +11,11 @@ export default function Home() {
   return (
     <>
       <HeroWithImage
-        subtitle="Head Elf Claus & The Workshop Team"
-        title="Holiday Wellness & Festive Family Care"
-        backgroundImage="https://images.unsplash.com/photo-1511447333015-45b65e60f6d5?w=1600&q=80"
-        backgroundImageAlt="Magical Christmas scene with warm lights and festive decorations"
-        ctaText="Book Your Christmas Wellness Visit"
+        subtitle="Expert Chiropractic Care for Your Well-Being"
+        title="Your Journey to Pain-Free Living Starts Here"
+        backgroundImage="https://images.unsplash.com/photo-1544991875-5dc1b05f607d?w=1600&q=80"
+        backgroundImageAlt="Professional chiropractor treating patient in modern clinic"
+        ctaText="Schedule Your Appointment"
         ctaUrl={businessInfo.bookingUrl}
       />
       <FeaturedServices />
