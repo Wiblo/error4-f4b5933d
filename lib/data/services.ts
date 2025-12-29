@@ -1,3 +1,4 @@
+// New Year's theme icons
 import { Sparkles, Star } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
