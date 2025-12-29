@@ -1,4 +1,4 @@
-import { Gift, Snowflake } from 'lucide-react'
+import { Sparkles, Star } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
 export interface Service {
@@ -27,62 +27,62 @@ export const services: Service[] = [
   {
     id: 'initial-consultation',
     slug: 'initial-consultation',
-    name: 'Christmas Wellness Check-Up',
+    name: 'New Beginnings Wellness Assessment',
     description:
-      'Get on Santa\'s nice list with a comprehensive wellness assessment! Our festive first visit includes a joyful health evaluation and personalized holiday healing plan to keep you merry and bright all season long.',
+      'Ring in 2025 with a comprehensive wellness evaluation! Our inaugural consultation includes a thorough health assessment and personalized resolution roadmap to help you achieve your wellness goals this year.',
     duration: '60 min',
     price: '$125',
-    image: 'https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800&q=80',
-    imageAlt: 'Festive Christmas wellness consultation with holiday decorations',
-    icon: Gift,
+    image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&q=80',
+    imageAlt: 'Modern wellness consultation in elegant setting with New Year celebration theme',
+    icon: Sparkles,
     benefits: [
-      'Complete holiday health assessment',
-      'Candy cane posture check',
-      'Personalized wellness wish list',
-      'First treatment if you\'ve been nice',
+      'Complete health and wellness assessment',
+      'Advanced postural analysis',
+      'Personalized 2025 wellness plan',
+      'First treatment session included',
     ],
     featured: true,
     shortDescription:
-      'Start your journey to a merry and healthy holiday season',
+      'Start your journey to a healthier, pain-free 2025',
     fullDescription:
-      'During your Christmas Wellness Check-Up, our team of jolly wellness elves conducts a thorough evaluation of your health history, current concerns, and holiday wellness goals. This includes a festive physical examination, candy cane posture analysis, and jingle bell movement assessment.\n\nUsing North Pole-approved diagnostic techniques, we identify what\'s keeping you from being your merriest self and develop a personalized treatment plan sprinkled with holiday magic. If you\'ve been nice, your first therapeutic session may be included during this visit!',
+      'During your New Beginnings Wellness Assessment, our expert team conducts a thorough evaluation of your health history, current concerns, and 2025 wellness goals. This includes a comprehensive physical examination, advanced postural analysis, and movement assessment.\n\nUsing state-of-the-art diagnostic techniques, we identify the root causes of your discomfort and develop a personalized treatment plan designed to help you achieve lasting results. Your first therapeutic session is included during this visit to jumpstart your wellness journey!',
     idealFor: [
-      'New patients seeking holiday wellness',
-      'Stressed shoppers needing relief',
-      'Cookie baking posture issues',
-      'Tree decorating strains',
-      'Preventative holiday care',
-      'Staying on the nice list',
+      'New patients ready for transformation',
+      'Those with chronic pain seeking relief',
+      'Athletes optimizing performance',
+      'Desk workers with posture issues',
+      'Preventative wellness care',
+      'Anyone committed to their 2025 goals',
     ],
   },
   {
     id: 'follow-up',
     slug: 'follow-up-consultation',
-    name: 'Ho-Ho-Holistic Follow-Up',
+    name: 'Resolution Maintenance Session',
     description:
-      'Keep the holiday spirit flowing with continued wellness sessions! Monitor your progress, adjust your treatment sleigh, and receive therapeutic interventions to keep you jingling all the way.',
+      'Stay on track with your 2025 wellness goals! Our ongoing sessions monitor your progress, refine your treatment plan, and provide targeted therapeutic interventions to ensure lasting results.',
     duration: '30 min',
     price: '$85',
-    image: 'https://images.unsplash.com/photo-1482517967863-00e15c9b44be?w=800&q=80',
-    imageAlt: 'Cozy Christmas wellness session with festive ambiance',
-    icon: Snowflake,
+    image: 'https://images.unsplash.com/photo-1551218372-a8789b81b253?w=800&q=80',
+    imageAlt: 'Professional ongoing wellness treatment in modern elegant clinic',
+    icon: Star,
     benefits: [
-      'Progress evaluation by Santa\'s helpers',
-      'Treatment plan adjustments',
-      'Festive therapeutic interventions',
-      'Home care tips for the holidays',
+      'Progress tracking and assessment',
+      'Treatment plan optimization',
+      'Advanced therapeutic techniques',
+      'Personalized home care guidance',
     ],
     featured: true,
     shortDescription:
-      'Ongoing care to keep you merry throughout the holiday season',
+      'Ongoing care to maintain your wellness momentum throughout 2025',
     fullDescription:
-      'Ho-Ho-Holistic Follow-Up sessions are essential for maintaining your holiday wellness and ensuring you stay joyful all season long. Each session includes a cheerful reassessment of your condition, targeted therapeutic adjustments, and complementary holiday therapies as needed.\n\nOur wellness elves adjust your treatment plan based on your response to care, ensuring you continue progressing toward your merriest self. These appointments also include guidance on festive exercises, holiday lifestyle tips, and self-care strategies to keep your spirits bright between visits.',
+      'Resolution Maintenance Sessions are essential for sustaining your wellness progress and ensuring you achieve your 2025 health goals. Each session includes a detailed reassessment of your condition, targeted therapeutic adjustments, and complementary therapies as needed.\n\nOur expert team refines your treatment plan based on your response to care, ensuring you continue progressing toward optimal health. These appointments also include guidance on corrective exercises, lifestyle modifications, and self-care strategies to maximize results between visits.',
     idealFor: [
-      'Ongoing holiday treatment',
-      'Maintaining seasonal wellness',
-      'Recovery from gift wrapping',
-      'Managing holiday stress',
-      'Performance optimization for caroling',
+      'Ongoing treatment and care',
+      'Maintaining optimal wellness',
+      'Chronic pain management',
+      'Performance enhancement',
+      'Long-term health optimization',
     ],
   },
 ]

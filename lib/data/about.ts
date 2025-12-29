@@ -17,11 +17,11 @@ export interface AboutFull {
  * Brief introduction with link to full about page
  */
 export const aboutPreview: AboutPreview = {
-  title: 'About Santa\'s Workshop',
+  title: 'About Resolution Wellness',
   description:
-    "Head Elf Claus is a dedicated wellness practitioner committed to helping everyone achieve a merry life through North Pole-approved healthcare. With centuries of experience spreading holiday cheer and a degree from the University of Christmas Magic earned with distinction, our team provides holistic, festive care to elves, reindeer, and humans of all ages.",
-  image: 'https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800&q=80',
-  imageAlt: 'Festive Christmas wellness environment with holiday decorations',
+    "Dr. Alexander Sterling is a dedicated wellness practitioner committed to helping you achieve transformative health in 2025. With over 15 years of experience in chiropractic care and a doctorate from Palmer College of Chiropractic earned with highest honors, our team provides comprehensive, evidence-based care to individuals and families of all ages.",
+  image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80',
+  imageAlt: 'Modern wellness center with elegant New Year celebration ambiance',
 }
 
 /**
@@ -29,12 +29,12 @@ export const aboutPreview: AboutPreview = {
  * Comprehensive information about the practice
  */
 export const aboutFull: AboutFull = {
-  title: 'About Head Elf Claus & The Workshop Team',
+  title: 'About Dr. Sterling & The Resolution Team',
   paragraphs: [
-    "Head Elf Claus is a dedicated wellness practitioner committed to helping everyone achieve a merry life through North Pole-approved healthcare. With centuries of experience spreading holiday cheer and a degree from the University of Christmas Magic earned with distinction, our workshop provides holistic, festive care to elves, reindeer, and humans of all ages.",
-    'Specializing in holiday wellness and family care, Head Elf Claus combines traditional North Pole techniques with a compassionate approach to address a wide range of conditions, from gift-wrapping fatigue to chronic Grinch syndrome and even reindeer flight injuries.',
-    'At Santa\'s Workshop Wellness, every patient receives personalized attention and a customized treatment plan designed to support their unique healing journey and keep them on the nice list year-round. We believe in spreading wellness joy throughout all seasons, not just Christmas!',
+    "Dr. Alexander Sterling is a dedicated wellness practitioner committed to helping you achieve transformative health in 2025. With over 15 years of experience in chiropractic care and a doctorate from Palmer College of Chiropractic earned with highest honors, our practice provides comprehensive, evidence-based care to individuals and families of all ages.",
+    'Specializing in sports rehabilitation and family wellness, Dr. Sterling combines cutting-edge techniques with a compassionate, patient-centered approach to address a wide range of conditions, from chronic pain and sports injuries to posture correction and preventative care.',
+    'At Resolution Wellness Center, every patient receives personalized attention and a customized treatment plan designed to support their unique health journey and help them achieve lasting results. We believe in empowering our patients with the tools and knowledge they need to maintain optimal wellness throughout the year and beyond!',
   ],
-  image: 'https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800&q=80',
-  imageAlt: 'Festive Christmas wellness center interior with warm lighting',
+  image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80',
+  imageAlt: 'Professional modern wellness center interior with elegant design',
 }

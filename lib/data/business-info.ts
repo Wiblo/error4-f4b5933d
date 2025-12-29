@@ -1,53 +1,53 @@
 export const businessInfo = {
   // Core business details
-  name: "Santa's Workshop Wellness",
-  tagline: "Spreading Holiday Cheer and Wellness All Year",
+  name: "Resolution Wellness Center",
+  tagline: "New Year, New You - Start 2025 Pain-Free",
   logo: "/logo.svg",
 
   // Contact information
-  phone: "(555) NORTH-POLE",
-  phoneSecondary: "(555) HO-HO-HO", // Optional second phone number
-  email: "santa@northpolewellness.com",
+  phone: "(555) 2025-NEW",
+  phoneSecondary: "(555) WELLNESS", // Optional second phone number
+  email: "info@resolutionwellness.com",
 
   // Location
   address: {
-    street: "1 Candy Cane Lane",
-    area: "Workshop District", // Optional (e.g., "Building Name" or "Suite 100")
-    city: "North Pole",
-    state: "AK",
-    zip: "99705",
+    street: "2025 Celebration Boulevard",
+    area: "Renewal District", // Optional (e.g., "Building Name" or "Suite 100")
+    city: "New Hope",
+    state: "NY",
+    zip: "10001",
     country: "US",
   },
 
   // Optional: Coordinates for map and LocalBusiness schema
   geo: {
-    latitude: 64.7511,
-    longitude: -147.3494,
+    latitude: 40.7589,
+    longitude: -73.9851,
   },
 
   // Business hours
   hours: {
-    monday: "8:00am - 8:00pm",
-    tuesday: "8:00am - 8:00pm",
-    wednesday: "8:00am - 8:00pm",
-    thursday: "8:00am - 8:00pm",
-    friday: "8:00am - 9:00pm",
-    saturday: "9:00am - 6:00pm",
-    sunday: "Christmas Prep Day",
+    monday: "7:00am - 9:00pm",
+    tuesday: "7:00am - 9:00pm",
+    wednesday: "7:00am - 9:00pm",
+    thursday: "7:00am - 9:00pm",
+    friday: "7:00am - 10:00pm",
+    saturday: "8:00am - 8:00pm",
+    sunday: "9:00am - 6:00pm",
   },
 
   // Social media profiles
   social: {
-    facebook: "https://facebook.com/santasworkshopwellness",
-    instagram: "https://instagram.com/northpolewellness",
+    facebook: "https://facebook.com/resolutionwellness",
+    instagram: "https://instagram.com/resolutionwellness2025",
     whatsapp: "https://wa.me/1234567890", // WhatsApp link with number
     // twitter: "https://twitter.com/yourpage",
     // linkedin: "https://linkedin.com/company/yourpage",
   },
 
   // Site metadata
-  url: "https://santasworkshopwellness.com",
-  description: "Bringing the magic of Christmas wellness to help everyone stay on the nice list with holistic care and holiday spirit.",
+  url: "https://resolutionwellness.com",
+  description: "Begin your 2025 wellness journey with expert chiropractic care. Turn your New Year's resolutions into reality with personalized treatment plans and holistic healing.",
   priceRange: "$$", // $, $$, $$$, or $$$$
 
   // Schema.org types for JSON-LD structured data
@@ -60,13 +60,13 @@ export const businessInfo = {
   schemaTypes: ['LocalBusiness', 'MedicalBusiness', 'HealthAndBeautyBusiness'] as const,
 
   // Booking/appointment URL
-  bookingUrl: "https://santasworkshopwellness.com/book",
+  bookingUrl: "https://resolutionwellness.com/book",
 
   // Google Maps configuration
   maps: {
     apiKey: "AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8",
     // Location name for Google Maps searches
-    locationName: "Santa's Workshop Wellness Center",
+    locationName: "Resolution Wellness Center",
   },
 }
 
