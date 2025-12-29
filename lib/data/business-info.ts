@@ -2,7 +2,7 @@ export const businessInfo = {
   // Core business details
   name: "Resolution Wellness Center",
   tagline: "New Year, New You - Start 2025 Pain-Free",
-  logo: "/logo.svg",
+  logo: "/uploads/33ef87d8-f7ea-460e-a37f-eefd6c29d7da.png",
 
   // Contact information
   phone: "(555) 2025-NEW",
